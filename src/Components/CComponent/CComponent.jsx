@@ -4,7 +4,7 @@ import React from 'react';
 const ComponenteConst = () => {
     return(
       <div style={{background: 'red', color: 'white'}} className="App">
-        <p>Componente como constante</p>
+        <p>Componente como constante.</p>
       </div>
     );
 };

@@ -4,7 +4,7 @@ import React from 'react';
 function ComponentFunc() {
     return (
         <div style={{background: 'green', color: 'white'}} className="App">
-        <p>Componente como funcion !! </p>
+        <p>Componente como función.</p>
       </div>
     );
 }

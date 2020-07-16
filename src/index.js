@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Components/App';
 import * as serviceWorker from './serviceWorker';
+import HelloWorld from './Components/HelloWorld';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
+    <HelloWorld text="hello, world" />
   </React.StrictMode>,
   document.getElementById('root')
 );

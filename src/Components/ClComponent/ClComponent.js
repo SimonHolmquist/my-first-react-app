@@ -6,7 +6,7 @@ class ComponenteClase extends Component {
   render(){
     return(
         <div style={{background: 'grey', color: 'white'}} className="App">
-        <p>Componente como funcion</p>
+        <p>Componente como clase.</p>
       </div>
     );
   }
